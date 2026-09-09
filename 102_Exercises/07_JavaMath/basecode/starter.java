@@ -8,12 +8,12 @@ class starter {
         // ===================================================
         // SECTION 1: Declaring int and double variables
         // ===================================================
- 
+ int applesPicked = 12;
         // TODO: Construct and declare an int variable named applesPicked and set it to 12
         
  
         // TODO: Construct and declare a double variable named boxWeightLbs and set it to 2.5
-        
+ double boxWeightLbs = 12.5;
  
         System.out.println("Apples picked: " + applesPicked);
         System.out.println("Box weight: " + boxWeightLbs);
@@ -25,11 +25,11 @@ class starter {
         // SECTION 2: Basic arithmetic (+, -, *)
         // ===================================================
  
-        int applesPerBasket = 4;
+  int applesPerBasket = 4;
  
         // TODO: Construct and declare an int variable named totalBaskets that equals
         // applesPicked multiplied by applesPerBasket
-        
+   int totalBaskets = (applesPicked*applesPerBasket);
  
         System.out.println("Total baskets: " + totalBaskets);
         // Expected: Total baskets: 48
@@ -46,7 +46,7 @@ class starter {
  
         // TODO: Construct and declare an int variable named cookiesPerStudentInt that
         // divides totalCookies by studentsInClass using INTEGER division
-        
+        int cookiesPerStudentInt=(totalCookies/studentsInClass);
  
         System.out.println("Cookies per student (int division): " + cookiesPerStudentInt);
         // Expected: Cookies per student (int division): 3
@@ -57,7 +57,7 @@ class starter {
         // Hint: you'll need to cast at least one of the ints to a double,
         // e.g. (double) totalCookies or add/multiple by 0.0/1.0
         
- 
+ double cookiesPerStudentDouble = ((double)totalCookies/studentsInClass);
         System.out.println("Cookies per student (double division): " + cookiesPerStudentDouble);
         // Expected: Cookies per student (double division): 3.4
 
@@ -70,7 +70,7 @@ class starter {
         // TODO: Construct and declare an int variable named leftoverCookies that stores
         // the remainder of totalCookies divided by studentsInClass
         
- 
+ int leftoverCookies=(totalCookies/studentsInClass);
         System.out.println("Leftover cookies: " + leftoverCookies);
         // Expected: Leftover cookies: 2
 
@@ -83,7 +83,7 @@ class starter {
  
         // TODO: Construct and declare a double variable named totalCost that equals
         // applesPicked times pricePerApple
-        
+        double totalCost=(applesPicked/pricePerApple);
  
         System.out.println("Total cost: $" + totalCost);
         // Expected: Total cost: $4.2
@@ -95,7 +95,7 @@ class starter {
         // TODO: Construct and declare an int variable named mathResult that calculates
         // the following, following normal order of operations (PEMDAS):
         //     (8 + 2) * 3 - 10 / 2
-        
+        int mathResult= (8+2)*3 - (10/2);
 		
         System.out.println("Math result: " + mathResult);
         // Expected: Math result: 25
